@@ -1,2 +1,1 @@
-# reifydb-bench
-benchmarks for reifydb
+# Benchmarks for Reifydb

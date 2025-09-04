@@ -7,7 +7,7 @@
 use std::time::Duration;
 
 use criterion::{criterion_group, criterion_main, Criterion, Throughput};
-use reifydb_bench::queries;
+use bench::queries;
 use reifydb_rql::{ast::parse_str, plan::logical_all};
 
 fn bench_parsing(c: &mut Criterion) {

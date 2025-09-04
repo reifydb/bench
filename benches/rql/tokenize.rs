@@ -7,7 +7,7 @@
 use std::time::Duration;
 
 use criterion::{criterion_group, criterion_main, Criterion, Throughput};
-use reifydb_bench::queries;
+use bench::queries;
 use reifydb_rql::ast::tokenize;
 
 fn bench_tokenization(c: &mut Criterion) {

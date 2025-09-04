@@ -6,7 +6,7 @@ use std::time::Duration;
 
 use criterion::{criterion_group, criterion_main, Criterion, Throughput};
 use reifydb::{embedded, MemoryDatabaseOptimistic, Params, Session};
-use reifydb_bench::queries;
+use bench::queries;
 
 fn bench_simple_queries(c: &mut Criterion) {
 	let db = create_benchmark_db_with_data();

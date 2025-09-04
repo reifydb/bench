@@ -17,7 +17,7 @@
 // 	LoggingBuilder, MemoryOptimisticTransaction, ServerBuilder,
 // 	WithSubsystem,
 // };
-// use reifydb_bench::queries;
+// use bench::queries;
 // use tokio::{net::TcpStream, runtime::Runtime, time::sleep};
 // use tokio_tungstenite::{
 // 	connect_async,
